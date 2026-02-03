@@ -4,8 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 from scanpy import queries
-from scanpy.preprocessing import filter_cells, filter_genes
-from scanpy.preprocessing import calculate_qc_metrics
+from scanpy.pp import filter_cells, filter_genes
+from scanpy.pp import calculate_qc_metrics
 
 
 # This is a stopgap while scanpy issues #242
