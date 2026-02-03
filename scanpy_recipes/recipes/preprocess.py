@@ -1,9 +1,9 @@
 import os
 import numpy as np
 import pandas as pd
-import scanpy.api.logging as logg
+import scanpy.logging as logg
 import scanpy.preprocessing as pp
-from scanpy.preprocessing.bbknn import bbknn
+from scanpy.external.pp import bbknn
 from scanpy.neighbors import neighbors
 from scanpy.tools.umap import umap
 from scanpy.tools.leiden import leiden
