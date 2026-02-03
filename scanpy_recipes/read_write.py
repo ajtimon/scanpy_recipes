@@ -13,7 +13,7 @@ import anndata
 from scanpy.readwrite import read_10x_h5
 from scanpy.readwrite import read as scread, write as scwrite
 from scanpy.pp import normalize_total as normalize_per_cell, log1p
-import scanpy.api.logging as logg
+import scanpy.logging as logg
 
 from .versions import REPORT_SCHEMA_VERSION, ANALYSIS_PIPELINE_VERSION
 from .utils import datestamp, timestamp, shift_metadata, silence, quantile_limit
