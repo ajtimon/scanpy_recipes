@@ -7,7 +7,7 @@ from subprocess import check_call
 import matplotlib
 import matplotlib.pyplot as plt
 
-import scanpy.api.logging as logg
+import scanpy.logging as logg
 #from scanpy.plotting.tools.scatterplots import umap
 from scanpy.plotting.anndata import scatter
 
