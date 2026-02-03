@@ -8,7 +8,7 @@ import seaborn as sns
 import cmocean as cmo
 
 from scanpy import pl
-from scanpy.readwrite import read_10x_h5
+from scanpy import read_10x_h5
 
 
 
