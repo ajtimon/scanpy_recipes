@@ -60,7 +60,8 @@ def umi_rank_plot(adata_redux, return_fig=False):
 
 
 def _plot_thresholded_violin(ax, adata, key, min_thresh, max_thresh):
-    params = dict(ax=ax, show=False, grid=300, cut=0)
+    # Removed 'grid' parameter - no longer supported in recent matplotlib/seaborn versions
+    params = dict(ax=ax, show=False, cut=0)
     pl.violin(adata, key, color="0.9", linewidth=0.5, **params)
     if min_thresh or max_thresh:
         pl.violin(adata, key, color="red", stripplot=False, linewidth=0, **params)
