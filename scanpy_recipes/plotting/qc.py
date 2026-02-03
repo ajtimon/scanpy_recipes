@@ -7,7 +7,7 @@ from matplotlib.ticker import FuncFormatter, LogLocator, NullLocator
 import seaborn as sns
 import cmocean as cmo
 
-from scanpy.api import pl
+from scanpy import pl
 from scanpy.readwrite import read_10x_h5
 
 
