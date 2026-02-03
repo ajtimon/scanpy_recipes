@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 import scanpy.logging as logg
 #from scanpy.plotting.tools.scatterplots import umap
-from scanpy.plotting.anndata import scatter
+from scanpy.plotting import scatter
 
 from .utils import datestamp
 from scanpy import __version__ as sc_version
