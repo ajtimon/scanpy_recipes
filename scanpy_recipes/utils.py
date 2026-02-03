@@ -5,7 +5,7 @@ import numpy as np
 from datetime import datetime
 from anndata import logging
 
-import scanpy.api.logging as logg
+import scanpy.logging as logg
 
 def timestamp():
     """
