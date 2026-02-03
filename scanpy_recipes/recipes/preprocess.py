@@ -5,9 +5,7 @@ import scanpy.logging as logg
 import scanpy.preprocessing as pp
 from scanpy.external.pp import bbknn
 from scanpy.neighbors import neighbors
-from scanpy.tools.umap import umap
-from scanpy.tools.leiden import leiden
-from scanpy.tools.louvain import louvain
+from scanpy.tools import umap, leiden, louvain
 
 
 def preprocess(adata_raw, n_top_genes=1000, scale=False):
