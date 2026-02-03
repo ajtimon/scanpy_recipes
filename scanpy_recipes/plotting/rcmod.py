@@ -1,5 +1,5 @@
 from matplotlib import rcParams
-from scanpy.settings import set_figure_params
+from scanpy import set_figure_params
 from cmocean import cm as cmo
 
 def update_figure_params():
