@@ -4,7 +4,7 @@ import pandas as pd
 import functools
 from sklearn import metrics
 from scipy.stats import wilcoxon
-import scanpy.api.logging as logg
+import scanpy.logging as logg
 from scanpy.tools.leiden import leiden
 from scanpy.tools.louvain import louvain
 from ..utils import shift_clusters, order_clusters, reset_int_category, \
