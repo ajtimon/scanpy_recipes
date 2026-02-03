@@ -12,7 +12,7 @@ from configparser import ConfigParser, ExtendedInterpolation
 import anndata
 from scanpy.readwrite import read_10x_h5
 from scanpy.readwrite import read as scread, write as scwrite
-from scanpy.preprocessing.simple import normalize_per_cell, log1p
+from scanpy.pp import normalize_total as normalize_per_cell, log1p
 import scanpy.api.logging as logg
 
 from .versions import REPORT_SCHEMA_VERSION, ANALYSIS_PIPELINE_VERSION
